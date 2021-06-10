@@ -1,5 +1,7 @@
 # My Fake Season
 
+[https://myfakeseason.netlify.app/](https://myfakeseason.netlify.app/)
+
 I was digging around in some old project files and [found a screenshot](https://twitter.com/peruvianidol/status/1402809602224369666) of an old site I built, called My Fake Season, that made the front page of [kottke.org](https://kottke.org) back in 2005.
 
 I built the site during the NBA lockout that year and used NBA Live 2005 to simulate the Chicago Bulls season. NBA Live 2005 had a feature where you could save a tab-delimited text file of the boxscore after each game, so I wrote some PHP scripts that let me upload those files along with a game recap and a screenshot to the site. From there, I was able to generate standings, player stats, league leaders -- pretty much everything you'd find on the NBA's website.
