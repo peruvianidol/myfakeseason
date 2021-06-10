@@ -1,0 +1,654 @@
+---
+title: Statistics
+layout: base
+---
+
+<div id="main">
+<h2>Player Stats</h2>
+<p class="recap_box">PLAYER STATS | <a href="/leaders/">LEAGUE LEADERS</a></p>
+
+<script language="JavaScript1.2" type="text/javascript">
+    <!--
+
+function formHandler(form){
+  var URL = document.form.site.options[document.form.site.selectedIndex].value;
+  window.location.href = URL;
+}
+
+    -->
+</script>
+
+<!--
+<form name="form">
+<p>Select Team: <select name="site" onchange="javascript:formHandler()">
+<option value="statistics.php?team=1">Atlanta</option>
+<option value="statistics.php?team=2">Boston</option>
+<option value="statistics.php?team=3">Charlotte</option>
+<option value="statistics.php?team=4" selected="selected">BULLS</option>
+<option value="statistics.php?team=5">Cleveland</option>
+<option value="statistics.php?team=6">Dallas</option>
+<option value="statistics.php?team=7">Denver</option>
+<option value="statistics.php?team=8">Detroit</option>
+<option value="statistics.php?team=9">Golden State</option>
+<option value="statistics.php?team=10">Houston</option>
+<option value="statistics.php?team=11">Indiana</option>
+<option value="statistics.php?team=12">LA Clippers</option>
+<option value="statistics.php?team=13">LA Lakers</option>
+<option value="statistics.php?team=14">Memphis</option>
+<option value="statistics.php?team=15">Miami</option>
+<option value="statistics.php?team=16">Milwaukee</option>
+<option value="statistics.php?team=17">Minnesota</option>
+<option value="statistics.php?team=18">New Jersey</option>
+<option value="statistics.php?team=19">New Orleans</option>
+<option value="statistics.php?team=20">New York</option>
+<option value="statistics.php?team=21">Orlando</option>
+<option value="statistics.php?team=22">Philadelphia</option>
+<option value="statistics.php?team=23">Phoenix</option>
+<option value="statistics.php?team=24">Portland</option>
+<option value="statistics.php?team=25">Sacramento</option>
+<option value="statistics.php?team=26">San Antonio</option>
+<option value="statistics.php?team=27">Seattle</option>
+<option value="statistics.php?team=28">Toronto</option>
+<option value="statistics.php?team=29">Utah</option>
+<option value="statistics.php?team=30">Washington</option>
+</select></p>
+</form>
+-->
+
+<table id="playerstats" width="100%" cellspacing="0" cellpadding="2">
+<tbody><tr>
+<th colspan="7" class="left">Season Averages</th>
+<th colspan="3" class="center">REBOUNDS</th>
+<th colspan="6">&nbsp;</th>
+</tr>
+<tr>
+<th class="left">Player</th>
+<th>GP</th>
+<th>GS</th>
+<th>MPG</th>
+<th>FG%</th>
+<th>3P%</th>
+<th>FT%</th>
+<th>OFF</th>
+<th>DEF</th>
+<th>TOT</th>
+<th>APG</th>
+<th>SPG</th>
+<th>BPG</th>
+<th>TO</th>
+<th>PF</th>
+<th>PPG</th>
+</tr>
+
+<tr class="odd">
+<td class="left"><a href="profile.php?id=90">Eddy Curry</a></td>
+<td>22</td>
+<td>19</td>
+<td>25.5</td>
+<td>.658</td>
+<td>.000</td>
+<td>.608</td>
+<td>3.0</td>
+<td>7.7</td>
+<td>10.7</td>
+<td>2.5</td>
+<td>0.5</td>
+<td>1.1</td>
+<td>1.7</td>
+<td>1.4</td>
+<td>18.1</td>
+</tr>
+<tr class="even">
+<td class="left"><a href="profile.php?id=148">Ben Gordon</a></td>
+<td>22</td>
+<td>20</td>
+<td>26.0</td>
+<td>.355</td>
+<td>.313</td>
+<td>.836</td>
+<td>0.1</td>
+<td>2.3</td>
+<td>2.4</td>
+<td>3.0</td>
+<td>1.2</td>
+<td>0.0</td>
+<td>1.6</td>
+<td>0.9</td>
+<td>13.4</td>
+</tr>
+<tr class="odd">
+<td class="left"><a href="profile.php?id=75">Tyson Chandler</a></td>
+<td>22</td>
+<td>22</td>
+<td>23.8</td>
+<td>.611</td>
+<td>.000</td>
+<td>.533</td>
+<td>2.5</td>
+<td>6.6</td>
+<td>9.1</td>
+<td>3.4</td>
+<td>0.2</td>
+<td>1.9</td>
+<td>1.2</td>
+<td>2.5</td>
+<td>13.2</td>
+</tr>
+<tr class="even">
+<td class="left"><a href="profile.php?id=173">Kirk Hinrich</a></td>
+<td>22</td>
+<td>22</td>
+<td>27.3</td>
+<td>.343</td>
+<td>.220</td>
+<td>.770</td>
+<td>0.2</td>
+<td>2.1</td>
+<td>2.3</td>
+<td>5.0</td>
+<td>1.0</td>
+<td>0.0</td>
+<td>2.1</td>
+<td>1.1</td>
+<td>13.1</td>
+</tr>
+<tr class="odd">
+<td class="left"><a href="profile.php?id=104">Luol Deng</a></td>
+<td>22</td>
+<td>22</td>
+<td>26.5</td>
+<td>.505</td>
+<td>.229</td>
+<td>.625</td>
+<td>0.5</td>
+<td>2.9</td>
+<td>3.4</td>
+<td>2.6</td>
+<td>2.0</td>
+<td>0.2</td>
+<td>1.4</td>
+<td>1.2</td>
+<td>13.0</td>
+</tr>
+<tr class="even">
+<td class="left"><a href="profile.php?id=96">Antonio Davis</a></td>
+<td>22</td>
+<td>3</td>
+<td>15.9</td>
+<td>.674</td>
+<td>.000</td>
+<td>.676</td>
+<td>1.9</td>
+<td>4.2</td>
+<td>6.1</td>
+<td>1.8</td>
+<td>0.2</td>
+<td>0.0</td>
+<td>1.2</td>
+<td>0.9</td>
+<td>7.0</td>
+</tr>
+<tr class="odd">
+<td class="left"><a href="profile.php?id=288">Andres Nocioni</a></td>
+<td>22</td>
+<td>0</td>
+<td>11.3</td>
+<td>.467</td>
+<td>.238</td>
+<td>.619</td>
+<td>0.3</td>
+<td>1.4</td>
+<td>1.7</td>
+<td>1.1</td>
+<td>0.7</td>
+<td>0.0</td>
+<td>1.2</td>
+<td>0.8</td>
+<td>5.9</td>
+</tr>
+<tr class="even">
+<td class="left"><a href="profile.php?id=211">Joe Johnson</a></td>
+<td>22</td>
+<td>1</td>
+<td>11.7</td>
+<td>.427</td>
+<td>.200</td>
+<td>.629</td>
+<td>0.1</td>
+<td>1.4</td>
+<td>1.5</td>
+<td>1.2</td>
+<td>0.6</td>
+<td>0.0</td>
+<td>0.5</td>
+<td>0.6</td>
+<td>5.4</td>
+</tr>
+<tr class="odd">
+<td class="left"><a href="profile.php?id=161">Othella Harrington</a></td>
+<td>16</td>
+<td>0</td>
+<td>7.6</td>
+<td>.581</td>
+<td>.000</td>
+<td>.647</td>
+<td>0.8</td>
+<td>1.5</td>
+<td>2.3</td>
+<td>0.8</td>
+<td>0.2</td>
+<td>0.0</td>
+<td>0.4</td>
+<td>0.8</td>
+<td>3.8</td>
+</tr>
+<tr class="even">
+<td class="left"><a href="profile.php?id=314">Eric Piatkowski</a></td>
+<td>3</td>
+<td>0</td>
+<td>6.3</td>
+<td>.273</td>
+<td>.333</td>
+<td>.500</td>
+<td>0.0</td>
+<td>0.7</td>
+<td>0.7</td>
+<td>1.0</td>
+<td>0.7</td>
+<td>0.0</td>
+<td>1.0</td>
+<td>0.3</td>
+<td>3.7</td>
+</tr>
+<tr class="odd">
+<td class="left"><a href="profile.php?id=304">Jannero Pargo</a></td>
+<td>6</td>
+<td>0</td>
+<td>3.8</td>
+<td>.500</td>
+<td>.500</td>
+<td>1.000</td>
+<td>0.0</td>
+<td>0.0</td>
+<td>0.0</td>
+<td>0.0</td>
+<td>0.0</td>
+<td>0.0</td>
+<td>0.0</td>
+<td>0.3</td>
+<td>2.2</td>
+</tr>
+<tr class="even">
+<td class="left"><a href="profile.php?id=113">Chris Duhon</a></td>
+<td>21</td>
+<td>1</td>
+<td>9.0</td>
+<td>.433</td>
+<td>.000</td>
+<td>.750</td>
+<td>0.0</td>
+<td>0.8</td>
+<td>0.8</td>
+<td>1.2</td>
+<td>0.3</td>
+<td>0.0</td>
+<td>0.4</td>
+<td>0.1</td>
+<td>1.7</td>
+</tr>
+<tr class="odd">
+<td class="left"><a href="profile.php?id=425">Rodney White</a></td>
+<td>5</td>
+<td>0</td>
+<td>3.6</td>
+<td>.200</td>
+<td>.000</td>
+<td>.000</td>
+<td>0.2</td>
+<td>0.4</td>
+<td>0.6</td>
+<td>0.0</td>
+<td>0.0</td>
+<td>0.0</td>
+<td>0.0</td>
+<td>0.0</td>
+<td>0.4</td>
+</tr>
+<tr class="total">
+<td class="left">TEAM AVERAGES</td>
+<td>22</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>.491</td>
+<td>.247</td>
+<td>.670</td>
+<td>9.4</td>
+<td>30.5</td>
+<td>39.9</td>
+<td>22.5</td>
+<td>6.9</td>
+<td>3.3</td>
+<td>11.7</td>
+<td>10.3</td>
+<td>94.5</td>
+</tr>
+<tr class="total">
+<td class="left">OPPONENTS</td>
+<td>22</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>.481</td>
+<td>.367</td>
+<td>.734</td>
+<td>8.5</td>
+<td>27.4</td>
+<td>35.8</td>
+<td>14.0</td>
+<td>6.1</td>
+<td>7.0</td>
+<td>11.3</td>
+<td>17.2</td>
+<td>93.0</td>
+</tr>
+
+</tbody></table><br>
+
+<table id="playerstats" width="100%" cellspacing="0" cellpadding="2">
+<tbody><tr>
+<th colspan="7" class="left">Season Totals</th>
+<th colspan="3" class="center">REBOUNDS</th>
+<th colspan="6">&nbsp;</th>
+</tr>
+<tr>
+<th class="left">Player</th>
+<th>GP</th>
+<th>GS</th>
+<th>MIN</th>
+<th>FGM-A</th>
+<th>3PM-A</th>
+<th>FTM-A</th>
+<th>OFF</th>
+<th>DEF</th>
+<th>TOT</th>
+<th>AST</th>
+<th>STL</th>
+<th>BLK</th>
+<th>TO</th>
+<th>PF</th>
+<th>PTS</th>
+</tr>
+
+<tr class="odd">
+<td class="left"><a href="profile.php?id=90">Eddy Curry</a></td>
+<td>22</td>
+<td>19</td>
+<td>561</td>
+<td>177-269</td>
+<td>0-0</td>
+<td>45-74</td>
+<td>66</td>
+<td>169</td>
+<td>235</td>
+<td>55</td>
+<td>10</td>
+<td>24</td>
+<td>38</td>
+<td>31</td>
+<td>399</td>
+</tr>
+<tr class="even">
+<td class="left"><a href="profile.php?id=148">Ben Gordon</a></td>
+<td>22</td>
+<td>20</td>
+<td>572</td>
+<td>104-293</td>
+<td>31-99</td>
+<td>56-67</td>
+<td>2</td>
+<td>51</td>
+<td>53</td>
+<td>65</td>
+<td>26</td>
+<td>0</td>
+<td>36</td>
+<td>20</td>
+<td>295</td>
+</tr>
+<tr class="odd">
+<td class="left"><a href="profile.php?id=75">Tyson Chandler</a></td>
+<td>22</td>
+<td>22</td>
+<td>523</td>
+<td>121-198</td>
+<td>0-4</td>
+<td>48-90</td>
+<td>55</td>
+<td>145</td>
+<td>200</td>
+<td>74</td>
+<td>4</td>
+<td>42</td>
+<td>26</td>
+<td>55</td>
+<td>290</td>
+</tr>
+<tr class="even">
+<td class="left"><a href="profile.php?id=173">Kirk Hinrich</a></td>
+<td>22</td>
+<td>22</td>
+<td>600</td>
+<td>87-254</td>
+<td>20-91</td>
+<td>94-122</td>
+<td>5</td>
+<td>46</td>
+<td>51</td>
+<td>110</td>
+<td>21</td>
+<td>1</td>
+<td>47</td>
+<td>25</td>
+<td>288</td>
+</tr>
+<tr class="odd">
+<td class="left"><a href="profile.php?id=104">Luol Deng</a></td>
+<td>22</td>
+<td>22</td>
+<td>584</td>
+<td>112-222</td>
+<td>11-48</td>
+<td>50-80</td>
+<td>12</td>
+<td>63</td>
+<td>75</td>
+<td>58</td>
+<td>45</td>
+<td>4</td>
+<td>30</td>
+<td>27</td>
+<td>285</td>
+</tr>
+<tr class="even">
+<td class="left"><a href="profile.php?id=96">Antonio Davis</a></td>
+<td>22</td>
+<td>3</td>
+<td>350</td>
+<td>64-95</td>
+<td>0-0</td>
+<td>25-37</td>
+<td>42</td>
+<td>92</td>
+<td>134</td>
+<td>40</td>
+<td>5</td>
+<td>1</td>
+<td>26</td>
+<td>19</td>
+<td>153</td>
+</tr>
+<tr class="odd">
+<td class="left"><a href="profile.php?id=288">Andres Nocioni</a></td>
+<td>22</td>
+<td>0</td>
+<td>248</td>
+<td>49-105</td>
+<td>5-21</td>
+<td>26-42</td>
+<td>7</td>
+<td>31</td>
+<td>38</td>
+<td>24</td>
+<td>15</td>
+<td>1</td>
+<td>26</td>
+<td>18</td>
+<td>129</td>
+</tr>
+<tr class="even">
+<td class="left"><a href="profile.php?id=211">Joe Johnson</a></td>
+<td>22</td>
+<td>1</td>
+<td>258</td>
+<td>44-103</td>
+<td>8-40</td>
+<td>22-35</td>
+<td>2</td>
+<td>31</td>
+<td>33</td>
+<td>27</td>
+<td>14</td>
+<td>0</td>
+<td>11</td>
+<td>14</td>
+<td>118</td>
+</tr>
+<tr class="odd">
+<td class="left"><a href="profile.php?id=161">Othella Harrington</a></td>
+<td>16</td>
+<td>0</td>
+<td>122</td>
+<td>25-43</td>
+<td>0-0</td>
+<td>11-17</td>
+<td>13</td>
+<td>24</td>
+<td>37</td>
+<td>13</td>
+<td>3</td>
+<td>0</td>
+<td>6</td>
+<td>12</td>
+<td>61</td>
+</tr>
+<tr class="even">
+<td class="left"><a href="profile.php?id=113">Chris Duhon</a></td>
+<td>21</td>
+<td>1</td>
+<td>190</td>
+<td>13-30</td>
+<td>0-5</td>
+<td>9-12</td>
+<td>1</td>
+<td>16</td>
+<td>17</td>
+<td>26</td>
+<td>6</td>
+<td>0</td>
+<td>8</td>
+<td>3</td>
+<td>35</td>
+</tr>
+<tr class="odd">
+<td class="left"><a href="profile.php?id=304">Jannero Pargo</a></td>
+<td>6</td>
+<td>0</td>
+<td>23</td>
+<td>5-10</td>
+<td>1-2</td>
+<td>2-2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>2</td>
+<td>13</td>
+</tr>
+<tr class="even">
+<td class="left"><a href="profile.php?id=314">Eric Piatkowski</a></td>
+<td>3</td>
+<td>0</td>
+<td>19</td>
+<td>3-11</td>
+<td>2-6</td>
+<td>3-6</td>
+<td>0</td>
+<td>2</td>
+<td>2</td>
+<td>3</td>
+<td>2</td>
+<td>0</td>
+<td>3</td>
+<td>1</td>
+<td>11</td>
+</tr>
+<tr class="odd">
+<td class="left"><a href="profile.php?id=425">Rodney White</a></td>
+<td>5</td>
+<td>0</td>
+<td>18</td>
+<td>1-5</td>
+<td>0-0</td>
+<td>0-0</td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>2</td>
+</tr>
+<tr class="total">
+<td class="left">TEAM TOTALS</td>
+<td>22</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>805-1638</td>
+<td>78-316</td>
+<td>391-584</td>
+<td>206</td>
+<td>672</td>
+<td>878</td>
+<td>495</td>
+<td>151</td>
+<td>73</td>
+<td>257</td>
+<td>227</td>
+<td>2079</td>
+</tr>
+<tr class="total">
+<td class="left">OPPONENTS</td>
+<td>22</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>873-1814</td>
+<td>112-305</td>
+<td>188-256</td>
+<td>186</td>
+<td>602</td>
+<td>788</td>
+<td>308</td>
+<td>135</td>
+<td>155</td>
+<td>249</td>
+<td>379</td>
+<td>2046</td>
+</tr>
+
+</tbody></table>
+
+</div>

@@ -1,0 +1,610 @@
+body {
+  margin-top: 0;
+  margin-bottom: 0;
+  background: #444;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 11px;
+}
+
+#container {
+width: 760px;
+margin-left: auto;
+margin-right: auto;
+background: #fff;
+}
+
+#banner {
+      background: #600000 url(/images/banner.png) no-repeat;
+      height: 125px;
+      width: 760px;
+padding: 0;
+      margin-bottom: 2px;
+}
+
+h1 {
+text-indent: -9999px;
+margin: 0;
+}
+
+#content {
+  border-top: 10px solid #600000;
+}
+
+#footer {
+clear: both;
+background: #000;
+color: #888;
+font-size: 10px;
+padding: 10px;
+}
+
+#footer p {
+margin: 0;
+}
+
+#footer a {
+color: #888;
+}
+
+p {
+margin: 0 0 1em 0;
+}
+
+a {
+color: #c00;
+}
+
+#nav {
+  background: #000;
+  margin-bottom: 2px;
+  color: #fff;
+font-size: 10px;
+  padding: 0;
+  height: 20px;
+}
+
+#nav ul {
+  float: right;
+border: 0;
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: center;
+}
+
+#nav ul li {
+display: block;
+float: left;
+text-align: center;
+padding: 0;
+margin: 0;
+}
+
+#nav ul li a {
+background: #000;
+width: 75px;
+height: 20px;
+border-left: 2px solid #fff;
+padding: 0;
+margin: 0;
+color: #ccc;
+text-decoration: none;
+display: block;
+text-align: center;
+font: normal 10px/20px Verdana, Arial, sans-serif;
+  font-weight: bold;
+  border-bottom: 0;
+}
+
+#nav ul li a:hover {
+color: #fff;
+background: #800000;
+}
+
+#nav a:active {
+background: #800000;
+color: #fff;
+}
+
+#nav li#active a {
+background: #800000;
+color: #fff;
+}
+
+h5 {
+text-align: left;
+font-weight: normal;
+font-family: "Arial Narrow";
+color: #444;
+font-size: 14px;
+margin: 0 0 1em 0;
+border-top: 3px solid #444;
+border-bottom: 1px solid #444;
+padding-bottom: 4px;
+padding-top: 2px;
+}
+
+#leaguenews li {
+list-style-type: square;
+margin: 0 0px 5px -25px;
+color: #444;
+font-size: 10px;
+}
+
+#central {
+text-align: center;
+}
+
+#standings, #leaders {
+border-top: 1px solid #A23636;
+}
+
+#standings th, #leaders th {
+background: #A23636;
+color: #fff;
+}
+
+#standings tbody th, #standings tbody td {
+font-size: 10px;
+border-bottom: 1px solid #A23636;
+padding: 2px;
+text-align: right;
+}
+
+#standings caption {
+text-align: left;
+font-size: 10px;
+}
+
+#leaders tbody th, #leaders tbody td {
+font-size: 10px;
+border-bottom: 1px solid #A23636;
+padding: 2px;
+text-align: left;
+}
+
+#standings tfoot td, #leaders tfoot td {
+font-size: 10px;
+padding: 2px;
+text-align: right;
+color: #444;
+}
+
+#standings tbody th.first, #standings tbody td.first, #leaders tbody th.first, #leaders tbody td.first {
+border-left: 1px solid #A23636;
+text-align: left;
+}
+
+#standings tbody th.last, #standings tbody td.last, #leaders tbody th.last, #leaders tbody td.last {
+border-right: 1px solid #A23636;
+}
+
+#leaders tbody th.last, #leaders tbody td.last {
+text-align: right;
+}
+
+.odd {
+background: #F6ECEC;
+}
+
+#standings td.left {
+text-align: left;
+}
+
+#leaders td.right, #leaders th.right {
+text-align: right;
+}
+
+#extras {
+padding-top: 10px;
+clear: both;
+}
+
+h4 {
+text-align: right;
+margin: 0;
+font-size: 16px;
+}
+
+#schedule {
+width: 700px;
+margin-left: auto;
+margin-right: auto;
+}
+
+#schedule caption {
+text-align: left;
+font-size: 11px;
+}
+
+#schedule caption span {
+font-size: 10px;
+}
+
+#schedule td, #schedule th {
+font-size: 10px;
+}
+
+#schedule tbody td {
+border-left: 1px solid #A23636;
+text-align: center;
+background: #fff;
+padding: 5px;
+}
+
+#schedule th.last, #schedule td.last, #schedule td.awaylast, #schedule td.homelast {
+border-right: 1px solid #A23636;
+}
+
+#schedule tbody th {
+border-left: 1px solid #A23636;
+border-top: 1px solid #A23636;
+border-bottom: 1px solid #A23636;
+background: #A23636;
+color: #fff;
+width: 100px;
+}
+
+#schedule td.home, #schedule td.homelast {
+background: #F4CCCC;
+}
+
+#schedule tfoot td {
+background: none;
+border-left: 0;
+border-top: 1px solid #A23636;
+border-bottom: 0;
+}
+
+#upcoming {
+background: #F6ECEC;
+clear: both;
+padding: 1em 10px;
+border-top: 1px solid #aaa;
+border-bottom: 1px solid #aaa;
+}
+
+h1 {
+height: 40px;
+width: 368px;
+text-indent: -9999px;
+margin: 0;
+}
+
+#leadpic {
+width: 225px;
+text-align: center;
+font-size: 10px;
+color: #444;
+}
+
+#leadpic img {
+border: 1px solid #ccc;
+padding: 5px;
+}
+
+.leadstory {
+border-bottom: 1px dashed #ccc;
+margin-bottom: 1em;
+margin-right: 10px;
+font-size: 14px;
+}
+
+.substory {
+border-bottom: 1px dashed #ccc;
+margin-bottom: 1em;
+margin-right: 10px;
+font-size: 11px;
+}
+
+h2 {
+font-family: "Arial Narrow";
+font-size: 24px;
+line-height: 24px;
+font-weight: normal;
+margin: 0 0 10px 0;
+padding: 0;
+}
+
+h3 {
+margin: 0 0 1em 0;
+font-size: 11px;
+}
+
+#main {
+margin: 10px 20px;
+font-size: 14px;
+}
+
+#stats {
+border-bottom: 1px solid #A23636;
+border-right: 1px solid #A23636;
+font-size: 10px;
+}
+
+#stats th {
+background: #A23636;  
+border-top: 1px solid #A23636;
+border-left: 1px solid #A23636;
+}
+
+#stats td {
+border-top: 1px solid #A23636;
+border-left: 1px solid #A23636;
+}
+
+#playerstats {
+border: 1px solid #A23636;
+font-size: 10px;
+}
+
+#playerstats th {
+background: #A23636;  
+text-align: right;
+color: #fff;
+}
+
+#playerstats td {
+border-top: 1px solid #A23636;
+text-align: right;
+}
+
+#playerstats td.left, #playerstats th.left {
+text-align: left;
+}
+
+#playerstats th.center, #playerstats td.center {
+text-align: center;
+}
+
+#playerstats caption {
+text-align: left;
+font-size: 11px;
+font-weight: bold;
+width: 45%;
+}
+
+#fullschedule {
+border-left: 1px solid #A23636;
+border-right: 1px solid #A23636;
+border-bottom: 1px solid #A23636;
+font-size: 10px;
+}
+
+#fullschedule th {
+background: #A23636;  
+color: #fff;
+border-top: 1px solid #A23636;
+text-align: left;
+}
+
+#fullschedule td {
+border-top: 1px solid #A23636;
+text-align: left;
+}
+
+#fullschedule td.left, #fullschedule th.left {
+text-align: left;
+}
+
+#fullschedule th.center, #fullschedule td.center {
+text-align: center;
+}
+
+#add_player {
+border: 1px solid #ccc;
+background: #f8f8f8;
+width: 400px;  
+padding: 10px;
+}
+
+.total {
+background: #eee;
+}
+
+#boxhead td, #boxhead th {
+font-size: 10px;
+text-align: right;
+padding: 0 10px;
+color: #444;
+}
+
+#boxhead td.left, #boxhead th.left {
+text-align: left;
+}
+
+#boxhead th {
+border-bottom: 1px solid #444;
+}
+
+#boxhead td.logo {
+text-align: center;
+padding: 0 20px;
+}
+
+#info {
+margin: 0; 
+font-size: 11px;
+}
+
+#info img {
+margin-right: 10px;
+margin-bottom: 1em;
+margin-top: 3px;
+float: left;
+}
+
+#selector
+{
+margin: 0;
+padding: 0;
+height: 20px;
+}
+
+#selector ul
+{
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: center;
+clear: left;
+}
+
+#selector ul li
+{
+display: block;
+float: left;
+text-align: center;
+padding: 0;
+margin: 0 3px 0 0;
+
+}
+
+#selector ul li a
+{
+background: #ddd;
+width: 125px;
+height: 20px;
+padding: 0;
+margin: 0;
+color: #666;
+text-decoration: none;
+display: block;
+text-align: center;
+font-weight: bold;
+line-height: 20px;
+font-size: 10px;
+}
+
+#selector ul li a:hover {
+background: #A23636;
+color: #fff;
+}
+
+
+#selector li#active a {
+background: #A23636;
+color: #fff;
+}
+
+#layerSeason, #layerLog, #layerSplits {
+clear: both;
+}
+
+#league_archive {
+padding-left: 20px;
+font-size: 10px;
+color: #444;  
+}
+
+.archive_item {
+font-size: 11px;
+border-bottom: 1px dotted #444;
+margin-bottom: 1em;
+}
+
+span.archive_date {
+font-size: 10px;
+color: #444;
+}
+
+.recap_box {
+font-size: 10px;
+color: #444;
+margin-top: -1em;
+padding-top: 2px;
+}
+
+.summer_recap {
+border: 1px solid #A23636;
+font-size: 11px;
+}
+
+.summer_recap th {
+border-top: 1px solid #A23636;
+border-bottom: 1px solid #A23636;
+border-right: 1px solid #A23636;
+background: #A23636;
+color: #fff;
+}
+
+.teamname {
+border-right: 1px solid #A23636;  
+}
+
+.teamname img {
+margin: 0px 10px;
+}
+
+.in_out {
+font-size: 10px;
+border-right: 1px solid #A23636;
+padding: 10px;
+background: #F4CCCC;
+}
+
+.sr_text {
+padding: 10px;
+background: #F2F2CE;
+}
+
+h6 {
+font-size: 14px;
+margin: 0;
+}
+
+form select {
+font-size: 10px;
+font-family: Verdana;
+}
+
+form p {
+font-size: 10px;
+margin: 0;
+}
+
+#standings td hr {
+height: 1px;
+color: #000;
+}
+
+
+/* NEW STYLES */
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+figure {
+  margin: 0;
+  max-width: 225px;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+figcaption {
+  text-align: center;
+}
+
+.mfs-flex-row {
+  display: flex;
+  padding: 10px;
+  gap: 20px;
+}
+
+.mfs-logo {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+}
+

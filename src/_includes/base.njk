@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <div id="container">
+
+    <div id="banner">
+      <h1>My Fake Season: Next Season Starts Now</h1>
+    </div>
+
+    <div id="nav">
+      <ul id="navlist">
+        <li><a href="/">Home</a></li>
+        <li><a href="/news/">News</a></li>
+        <li><a href="/schedule/">Schedule</a></li>
+        <li><a href="/statistics/">Statistics</a></li>
+        <li><a href="/standings/">Standings</a></li>
+        <li><a href="/roster/">Roster</a></li>
+      </ul>
+    </div>
+
+    <div id="content">
+      {{ content | safe }}
+    </div> 
+
+    <br/>
+
+    <div id="footer">
+      <p>This site is not affiliated with the NBA, the Chicago Bulls, Electronic Arts, or any other entity.<br/>
+      All quotes, events and statistics depicted on this site are completely fictional.<br/>
+      Copyright &copy; 2005 Michael Aparicio | <a href="/about/">What's this all about?</a> | <a href="/contact.php">Contact</a></p>
+    </div>
+
+  </div>
+
+</body>
+</html>
