@@ -1,0 +1,23 @@
+---
+layout: base.njk
+---
+<div id="main">
+
+  <h2>{{ title }}</h2>
+
+  {% if boxscore %}
+  <p class="recap_box">
+    RECAP | <a href="/boxscores/{{ boxscore }}/">BOXSCORE</a>
+  </p>
+  {% endif %}
+
+  <p>{{ pubdate }}</p>
+
+  <div id="leadpic" style="float: right; margin: 0 10px">
+    <img src="/images/{{ image }}" width="225" height="300"><br>
+    {{ caption }}
+  </div>
+
+  {{ content | safe }}
+
+</div>
